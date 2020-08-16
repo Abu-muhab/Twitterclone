@@ -155,5 +155,8 @@
         android:layout_width="340dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/black" />
+        android:background="@color/black"
+        app:headerLayout="@layout/drawer_header"
+        app:theme="@style/NavStyle"
+        app:menu="@menu/drawer_menu"/>
 </androidx.drawerlayout.widget.DrawerLayout>

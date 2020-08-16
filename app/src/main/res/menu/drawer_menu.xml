@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none" android:id="@+id/topSection">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/outline_person_outline_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/outline_list_alt_black_24dp"
+            android:title="Lists" />
+        <item
+            android:id="@+id/nav_topics"
+            android:icon="@drawable/outline_sms_black_24dp"
+            android:title="Topics" />
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/outline_bookmark_border_black_24dp"
+            android:title="Topics" />
+        <item
+            android:id="@+id/nav_moments"
+            android:icon="@drawable/outline_flash_on_black_24dp"
+            android:title="Moments" />
+    </group>
+    <group android:checkableBehavior="none" android:id="@+id/adSection">
+        <item
+            android:id="@+id/ads"
+            android:icon="@drawable/outline_aspect_ratio_black_24dp"
+            android:title="Twitter Ads" />
+    </group>
+    <group android:checkableBehavior="none" android:id="@+id/privacySection">
+        <item
+            android:id="@+id/privacy"
+            android:title="Settings and privacy" />
+        <item
+            android:id="@+id/help"
+            android:title="Help Center" />
+    </group>
+</menu>
