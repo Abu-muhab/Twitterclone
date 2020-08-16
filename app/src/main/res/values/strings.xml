@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Twitter clone</string>
+    <string name="homeIcon">Home</string>
+    <string name="searchIcon">Search</string>
+    <string name="twitterIcon">Twitter</string>
+    <string name="messageIcon">Messages</string>
+    <string name="notificationIcon">Notifications</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_closed">Close Navigation Drawer</string>
+</resources>
