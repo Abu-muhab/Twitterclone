@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/black"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:background="@color/black"
+        android:gravity="fill_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="aviClicked"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:contentDescription="@string/notificationIcon"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avi" />
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@null" />
+
+        <EditText
+            android:layout_width="270dp"
+            android:background="@drawable/round_rect_border"
+            android:layout_height="wrap_content"
+            android:hint="Search Twitter"
+            android:layout_weight="0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@null"
+            android:src="@null" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_weight="0"
+            android:contentDescription="@string/notificationIcon"
+            android:scaleType="fitCenter"
+            android:src="@drawable/outline_settings_black_24dp"
+            app:tint="@color/lightGrey" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>
